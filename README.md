@@ -8,6 +8,11 @@ This repository contains some examples of using graph optimization using the [g2
 <img src="/Images/robot.gif" width="300" height="250" alt="robot" />
 </div>
 
+<div align="center">
+<table> 
+<tr> 
+<td> 
+    
 + **Line_fit**: Optimize the parameters of a line equation of type: 
 
     >                       yi = m*xi + b
@@ -18,6 +23,9 @@ This repository contains some examples of using graph optimization using the [g2
         + __*max_iterations*__: maximum number of iterations
     + **outputs**:
         + __*m*__, and __*b*__: optimized parameters for line equation
+ 
+<tr>
+<td> 
 
 + **Curve_fit**: Optimize the parameters of a curve equation of type: 
 
@@ -29,6 +37,9 @@ This repository contains some examples of using graph optimization using the [g2
         + __*max_iterations*__: maximum number of iterations
     + **outputs**:
         + __*a*__, __*b*__ and __*c*__: optimized parameters for curve equation
+ 
+<tr>
+<td> 
 
 + **Polinomial_fit**: Optimize the parameters of a polinomial curve of type: 
 
@@ -40,6 +51,9 @@ This repository contains some examples of using graph optimization using the [g2
         + __*max_iterations*__: maximum number of iterations
     + **outputs**:
         + __*a*__, __*b*__ and __*c*__: optimized parameters for polinomial equation
+ 
+<tr>
+<td> 
 
 + **Polinomial_fit**: Optimize the parameters of a polinomial curve of type: 
 
@@ -51,6 +65,9 @@ This repository contains some examples of using graph optimization using the [g2
         + __*max_iterations*__: maximum number of iterations
     + **outputs**:
         + __*a*__, __*b*__ and __*c*__: optimized parameters for polinomial equation
+ 
+<tr>
+<td> 
 
 + **2D_Translation_Optimization**: Optimize a two-dimensional vector position. This vector represents the position of a point in the cartesian plane.
 
@@ -60,6 +77,9 @@ This repository contains some examples of using graph optimization using the [g2
     + **outputs**:
         + __*x*__ and __*y*__: optimized coordinates
 
+</table>
+</div>
+    
 ## How to Use:
 
 + Dependences (mandatory):
